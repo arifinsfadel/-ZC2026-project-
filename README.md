@@ -235,7 +235,17 @@ dbt run
 
 # open Looker Studio dashboard link
 
-📌 Project Impact
+##📚 Data Sources & References
+##🌍 Primary Datasets
+| Dataset                     | Source         | Indicator Code       | Description                                                                          |
+| --------------------------- | -------------- | -------------------- | ------------------------------------------------------------------------------------ |
+| CO₂ Emissions (Fossil Fuel) | Kaggle / EDGAR | EN.GHG.CO2.MT.CE.AR5 | Fossil fuel CO₂ emissions excluding LULUCF, based on EDGAR v8.0 methodology          |
+| Temperature Anomalies       | Kaggle         | —                    | Global temperature deviation from long-term baseline, used to analyze climate trends |
+
+https://www.kaggle.com/datasets/thedevastator/global-fossil-co2-emissions-by-country-2002-2022
+https://www.kaggle.com/datasets/adilshamim8/temperature
+
+##📌 Project Impact
 
 This project demonstrates a junior data engineer–level system that includes:
 
@@ -244,7 +254,7 @@ Cloud data architecture
 Analytical modeling
 Statistical analysis (correlation + anomaly detection)
 Business intelligence dashboard
-👤 Author
+##👤 Author
 
 Built as a data engineering portfolio project focused on climate analytics and real-world data pipeline design.
 
